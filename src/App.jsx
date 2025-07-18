@@ -30,9 +30,9 @@ function App() {
 
 
       </div>
-      <button onClick={() => {console.log("Merhaba")}}/>
+      <button onClick={() => {console.log("Merhaba")}}>
       Press the merhaba
-      
+      </button>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
