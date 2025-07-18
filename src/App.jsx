@@ -18,13 +18,21 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
+        <div>  <text>merhabaa </text>  </div>
+       
+        
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+
+
       </div>
+      <button onClick={() => {console.log("Merhaba")}}/>
+      Press the merhaba
+      
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
